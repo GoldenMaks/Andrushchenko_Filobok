@@ -7,6 +7,9 @@
  * Zwraca 0 - elimnacja zakonczona sukcesem
  * Zwraca 1 - macierz osobliwa - dzielenie przez 0
  */
+
+void wyborElementuGlownego(Matrix *mat, Matrix *b, int k);
+
 int eliminate(Matrix *mat, Matrix *b);
 
 #endif
